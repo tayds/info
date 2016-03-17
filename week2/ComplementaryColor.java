@@ -82,6 +82,38 @@ public class ComplementaryColor {
 			System.out.println("\", color of " + representation + ".");
 
 			System.out.println("Your additional color: " + cColor + "!");
+		} else if(args[0].equals("es")) {
+			String color = args[1];
+			System.out.print("Agradable, a elegir \"" + color);
+			String representation = "";
+			String cColor = "";
+			if ("rojo".equals(color)) {
+				representation = "tomate";
+				cColor = "verde";
+			}
+			else if ("purpura".equals(color)) {
+				representation = "berenjena";
+				cColor = "amarillo";
+			}
+			else if ("azul".equals(color)) {
+				representation = "arándano";
+				cColor = "naranja";
+			}
+			else if ("verde".equals(color)) {
+				representation = "lechuga";
+				cColor = "rojo";
+			}
+			else if ("amarillo".equals(color)) {
+				representation = "melón";
+				cColor = "purpura";
+			}
+			else if ("naranja".equals(color)) {
+				representation = "mandarina";
+				cColor = "azul";
+			};
+			System.out.println("\", el color de " + representation + ".");
+
+			System.out.println("Su color adicional: " + cColor + "!");
 		}
 	}
 }
