@@ -52,7 +52,7 @@ public class ComplementaryColor {
 			System.out.println("Sua cor complementar é: " + cColor + "!");
 		} else if(args[0].equals("en")) {
 			String color = args[1];
-			System.out.print("Nice, you choose \"" + color);
+			System.out.print("Nice, you choose \"" + color + "\"");
 			String representation = "";
 			String cColor = "";
 			if ("red".equals(color)) {
@@ -79,7 +79,7 @@ public class ComplementaryColor {
 				representation = "tangerine";
 				cColor = "blue";
 			};
-			System.out.println("\", color of " + representation + ".");
+			System.out.println(", color of " + representation + ".");
 
 			System.out.println("Your additional color: " + cColor + "!");
 		}
